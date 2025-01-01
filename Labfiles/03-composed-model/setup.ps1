@@ -38,4 +38,4 @@ Write-Output "Uploaded sample data."
 
 # Create the Forms Recognizer resource
 Write-Output "Setting up the Document Intelligence resource."
-az cognitiveservices account create --kind FormRecognizer --location westus2 --name $docIntelligenceName --resource-group $resourceGroupName --sku F0 --yes
+az cognitiveservices account create --kind FormRecognizer --location westus2 --name $docIntelligenceName --resource-group $resourceGroupName --sku S0 --yes
